@@ -25,9 +25,12 @@ struct ContentView: View {
                         // 入力完了直後に検索する
                         await okashiDataList.searchOkashi(keyword: inputText)
                     }
-            }
+                }
+                // キーボードの改行を検索に変更する
+                .submitLabel(.search)
+                .padding()
         }
-        .padding()
+        
     }
 }
 
