@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A58E6752B9FE0BD005301F3 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A58E6742B9FE0BD005301F3 /* SafariView.swift */; };
 		5A77888B2B9B00F700815B74 /* MySearchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A77888A2B9B00F700815B74 /* MySearchApp.swift */; };
 		5A77888D2B9B00F700815B74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A77888C2B9B00F700815B74 /* ContentView.swift */; };
 		5A77888F2B9B00F800815B74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A77888E2B9B00F800815B74 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A58E6742B9FE0BD005301F3 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		5A7788872B9B00F700815B74 /* MySearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A77888A2B9B00F700815B74 /* MySearchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySearchApp.swift; sourceTree = "<group>"; };
 		5A77888C2B9B00F700815B74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			children = (
 				5A77888A2B9B00F700815B74 /* MySearchApp.swift */,
 				5A77888C2B9B00F700815B74 /* ContentView.swift */,
+				5A58E6742B9FE0BD005301F3 /* SafariView.swift */,
 				5A7788982B9B048200815B74 /* OkashiData.swift */,
 				5A77888E2B9B00F800815B74 /* Assets.xcassets */,
 				5A7788902B9B00F800815B74 /* Preview Content */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A58E6752B9FE0BD005301F3 /* SafariView.swift in Sources */,
 				5A77888D2B9B00F700815B74 /* ContentView.swift in Sources */,
 				5A7788992B9B048200815B74 /* OkashiData.swift in Sources */,
 				5A77888B2B9B00F700815B74 /* MySearchApp.swift in Sources */,
